@@ -167,9 +167,10 @@ body {
 }
 .app_theme_color {
   --primary-color: #1abc9c;
-  --secondary-color: #fff;
+  --secondary-color: #fffff0;
   --dark-teal: #008080;
   --light-teal: #60c9c3;
   --charcoal-gray: #333;
   --black: #000;
+  --white: #fff;
 }
