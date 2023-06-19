@@ -12,7 +12,7 @@
 }
 .nav-link-container {
   list-style: none;
-  color: var(--dark-teal);
+  color: var(--light-teal);
 }
 .nav-link {
   transition: all ease-in-out 0.5s;
