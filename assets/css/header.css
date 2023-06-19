@@ -1,4 +1,9 @@
 .header {
   background-color: var(--secondary-color);
-  height: 40px;
+  height: 80px;
+}
+.logo {
+  margin: 0;
+  color: var(--primary-color);
+  font-weight: 900 !important;
 }
