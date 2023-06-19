@@ -57,4 +57,8 @@
     transform: translateX(0px);
     opacity: 1;
   }
+  .nav-link:hover {
+    color: var(--charcoal-gray);
+    text-decoration: none;
+  }
 }
