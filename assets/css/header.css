@@ -7,3 +7,17 @@
   color: var(--primary-color);
   font-weight: 900 !important;
 }
+.nav {
+  width: 500px;
+}
+.nav-link-container {
+  list-style: none;
+  color: var(--dark-teal);
+}
+.nav-link {
+  transition: all ease-in-out 0.5s;
+}
+.nav-link:hover {
+  color: var(--primary-color) !important;
+  text-decoration: underline;
+}
