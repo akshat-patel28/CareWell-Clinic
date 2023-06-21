@@ -4,3 +4,17 @@
 .banner-section {
   height: calc(100vh - 80px);
 }
+.tag-line-container {
+  width: 60%;
+  padding-top: 60px;
+  box-sizing: border-box;
+}
+.tag-line-text {
+  color: var(--primary-color);
+  margin: 0;
+}
+.tag-line-sub-text {
+  margin: 0;
+  color: var(--dark-teal);
+  font-family: "Poppins", sans-serif;
+}
