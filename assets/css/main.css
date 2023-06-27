@@ -12,6 +12,7 @@
 .tag-line-text {
   color: var(--primary-color);
   margin: 0;
+  line-height: 50px;
 }
 .tag-line-sub-text {
   margin: 0;
