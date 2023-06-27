@@ -60,3 +60,28 @@
   color: var(--dark-teal);
   background-color: var(--secondary-color);
 }
+@media (max-width: 769px) {
+  .tag-line-container {
+    width: 100%;
+    padding-top: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .banner-button-container {
+    justify-content: center;
+  }
+  .tag-line-text,
+  .tag-line-sub-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 350px) {
+  .banner-btn-1 > svg,
+  .banner-btn-2 > svg {
+    display: none;
+  }
+  .banner-btn-1::after {
+    display: none;
+  }
+}
