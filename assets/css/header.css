@@ -49,6 +49,7 @@
     opacity: 0;
     transform: translateX(600px);
     transition: all 0.5s ease-in-out;
+    z-index: 9999;
   }
   .menuinput:checked ~ .menu {
     color: var(--charcoal-gray);
