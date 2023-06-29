@@ -64,7 +64,7 @@
   width: 50%;
 }
 .image-background {
-  width: 70%;
+  width: 75%;
   height: 70%;
   bottom: 70px;
   right: 0;
@@ -84,12 +84,15 @@
 }
 .feature-container-1 {
   width: 180px;
-  height: 50px;
+  height: 60px;
   border-radius: 8px;
   border: 1px solid var(--light-teal);
-  justify-content: space-around;
+  justify-content: flex-start;
+  gap: 5px;
+  box-sizing: border-box;
+  padding-left: 2px;
   left: 10%;
-  bottom: 25%;
+  bottom: 27%;
   z-index: 12;
   background: rgba(255, 255, 255, 0.5);
   -webkit-backdrop-filter: blur(5px);
