@@ -3,6 +3,7 @@
 }
 .banner-section {
   height: calc(100vh - 100px);
+  overflow: hidden;
 }
 .tag-line-container {
   width: 60%;
@@ -112,6 +113,9 @@
 .feature-info-container {
   display: none;
 }
+.banner-icon {
+  display: none;
+}
 @media (max-width: 1400px) {
   .banner-image {
     height: 450px;
@@ -153,6 +157,14 @@
   .feature-container-1,
   .feature-container-2 {
     width: 160px;
+  }
+  .banner-icon {
+    display: block;
+    right: 0;
+    bottom: 0;
+    color: var(--light-teal);
+    opacity: 0.7;
+    font-size: 200px;
   }
 }
 @media (max-width: 576px) {
