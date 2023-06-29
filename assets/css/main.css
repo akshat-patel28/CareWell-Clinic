@@ -82,6 +82,25 @@
   bottom: 70px;
   right: 0;
 }
+.feature-container-1 {
+  width: 180px;
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid var(--light-teal);
+  justify-content: space-around;
+  left: 10%;
+  bottom: 25%;
+  z-index: 12;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: var(--dark-teal);
+}
+
+.feature-icon-container {
+  padding: 5px 7px;
+}
 @media (max-width: 769px) {
   .banner-image-container {
     display: none;
