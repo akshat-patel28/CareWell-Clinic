@@ -76,6 +76,12 @@
   );
   border-radius: 150px 0 0 0;
 }
+.banner-image {
+  height: 80%;
+  z-index: 11;
+  bottom: 70px;
+  right: 0;
+}
 @media (max-width: 769px) {
   .banner-image-container {
     display: none;
