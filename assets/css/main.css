@@ -136,8 +136,6 @@
   .banner-image-container {
     display: none;
   }
-}
-@media (max-width: 769px) {
   .tag-line-container {
     width: 100%;
     justify-content: flex-start;
