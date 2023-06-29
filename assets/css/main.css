@@ -60,7 +60,26 @@
   color: var(--dark-teal);
   background-color: var(--secondary-color);
 }
+.banner-image-container {
+  width: 50%;
+}
+.image-background {
+  width: 70%;
+  height: 70%;
+  bottom: 70px;
+  right: 0;
+  background: linear-gradient(
+    to right bottom,
+    var(--dark-teal),
+    var(--light-teal),
+    var(--secondary-color)
+  );
+  border-radius: 100px 0 0 0;
+}
 @media (max-width: 769px) {
+  .banner-image-container {
+    display: none;
+  }
   .tag-line-container {
     width: 100%;
     justify-content: flex-start;
