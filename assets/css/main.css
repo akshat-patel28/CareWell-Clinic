@@ -2,7 +2,7 @@
   background: var(--secondary-color);
 }
 
-/* START- banner section styles */
+/* START- banner section styles (section-1) */
 .banner-section {
   height: calc(100vh - 80px);
   overflow: hidden;
@@ -189,4 +189,15 @@
     display: none;
   }
 }
-/* END - banner section styles */
+/* END - banner section styles  */
+
+/* STRAT - key feature section (section-2) */
+.key-feature-section {
+  min-height: 300px;
+  height: auto;
+  padding: 60px 0;
+}
+.section-2-title {
+  color: var(--dark-teal);
+  margin: 0;
+}
