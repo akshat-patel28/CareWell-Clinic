@@ -1,6 +1,8 @@
 .main {
   background: var(--secondary-color);
 }
+
+/* START- banner section styles */
 .banner-section {
   height: calc(100vh - 80px);
   overflow: hidden;
@@ -187,3 +189,4 @@
     display: none;
   }
 }
+/* END - banner section styles */
