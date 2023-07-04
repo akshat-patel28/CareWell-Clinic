@@ -212,6 +212,12 @@
   border-radius: 5px;
   box-sizing: border-box;
   padding: 10px;
-  border: 1px solid rgb(222, 255, 251);
+  border: 1px solid rgb(224, 253, 250);
   background-color: #f3ffff;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: all ease-in-out 0.5s;
+}
+.feature-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
