@@ -261,7 +261,8 @@
 /* START- specialtie section styles (section-3) */
 .specialtie-section {
   background-color: var(--light-teal);
-  height: 300px;
+  min-height: 300px;
+  height: auto;
   padding: 60px 0;
 }
 .section-3-title {
@@ -273,5 +274,24 @@
   color: var(--secondary-color);
   text-shadow: 1px 1px 60px #000;
   margin: 0;
+}
+.specialtie-card-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-top: 40px;
+  row-gap: 30px;
+  place-items: center;
+}
+.specialtie-card {
+  background-color: var(--secondary-color);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 120px;
+  height: 120px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: all ease-in-out 0.5s;
+}
+.specialtie-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 /* END- specialtie section styles (section-3) */
