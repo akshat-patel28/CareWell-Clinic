@@ -169,6 +169,11 @@
     font-size: 180px;
   }
 }
+@media (max-width: 769px) {
+  .banner-icon {
+    display: none;
+  }
+}
 @media (max-width: 576px) {
   .banner-button-container,
   .feature-info-container {
