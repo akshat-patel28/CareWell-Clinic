@@ -214,7 +214,7 @@
   grid-template-columns: repeat(4, 1fr);
   margin-top: 30px;
   grid-gap: 50px;
-  height: 250px;
+  height: auto;
 }
 .feature-card {
   border-radius: 5px;
@@ -226,6 +226,7 @@
   justify-content: space-around;
   max-height: 250px;
   overflow: hidden;
+  height: 250px;
 }
 .feature-card:hover {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -237,4 +238,21 @@
 .feature-card-title,
 .feature-card-sub-title {
   margin: 0;
+}
+@media (max-width: 992px) {
+  .feature-card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .feature-card {
+    height: 220px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+}
+@media (max-width: 768px) {
+  .feature-card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .feature-card {
+    height: 180px;
+  }
 }
