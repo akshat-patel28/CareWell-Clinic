@@ -170,6 +170,9 @@
   }
 }
 @media (max-width: 769px) {
+  .banner-section {
+    height: 60vh;
+  }
   .banner-icon {
     display: none;
   }
