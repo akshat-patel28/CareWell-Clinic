@@ -257,3 +257,21 @@
   }
 }
 /* END - key feature section (section-2) */
+
+/* START- specialtie section styles (section-3) */
+.specialtie-section {
+  background-color: var(--light-teal);
+  height: 300px;
+  padding: 60px 0;
+}
+.section-3-title {
+  color: var(--secondary-color);
+  margin-top: 0;
+  text-shadow: 1px 1px 60px #000;
+}
+.section-3-sub-text {
+  color: var(--secondary-color);
+  text-shadow: 1px 1px 60px #000;
+  margin: 0;
+}
+/* END- specialtie section styles (section-3) */
