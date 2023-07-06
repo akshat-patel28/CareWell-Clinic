@@ -303,4 +303,26 @@
   height: 40px;
   margin-top: 5px;
 }
+@media (max-width: 992px) {
+  .specialtie-card-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .specialtie-card-container {
+    row-gap: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .specialtie-card-container {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 25px;
+  }
+}
+@media (max-width: 420px) {
+  .specialtie-card-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 15px;
+  }
+}
 /* END- specialtie section styles (section-3) */
