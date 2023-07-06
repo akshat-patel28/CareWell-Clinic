@@ -9,12 +9,14 @@
 }
 .nav-link-container {
   list-style: none;
-  color: var(--light-teal);
   gap: 30px;
   padding: 0;
   margin: 0;
 }
-.nav-link {
+.nav-link,
+.nav-link > a {
+  color: var(--light-teal);
+  text-decoration: none;
   transition: all ease-in-out 0.5s;
 }
 .nav-link:hover {
