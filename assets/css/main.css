@@ -329,3 +329,39 @@
   }
 }
 /* END- specialtie section styles (section-3) */
+
+/* START- appointments section styles (section-4) */
+.appointments-section {
+  padding: 60px 0;
+  height: 600px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.section-4-image-conatiner {
+  width: 50%;
+  overflow: hidden;
+}
+.section-4-image-conatiner::after {
+  position: absolute;
+  content: " ";
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  background: linear-gradient(
+    to right bottom,
+    var(--secondary-color),
+    var(--secondary-color),
+    var(--light-teal),
+    var(--light-teal),
+    var(--dark-teal)
+  );
+  bottom: -30px;
+  left: 0px;
+}
+.section-4-image {
+  height: 90%;
+  bottom: 0;
+  left: 0;
+  z-index: 11;
+}
+/* END - appointments section styles (section-4) */
