@@ -364,4 +364,21 @@
   left: 0;
   z-index: 11;
 }
+.section-4-info-container {
+  width: 50%;
+  flex-direction: column;
+  align-items: self-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  padding-top: 20px;
+  gap: 10px;
+}
+.section-4-title {
+  margin: 0;
+  color: var(--primary-color);
+}
+.section-4-sub-text {
+  margin: 0;
+  color: var(--dark-teal);
+}
 /* END - appointments section styles (section-4) */
