@@ -371,7 +371,7 @@
   justify-content: flex-start;
   box-sizing: border-box;
   padding-top: 20px;
-  gap: 10px;
+  gap: 20px;
 }
 .section-4-title {
   margin: 0;
@@ -380,5 +380,27 @@
 .section-4-sub-text {
   margin: 0;
   color: var(--dark-teal);
+}
+.section-4-btn-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  row-gap: 20px;
+  padding: 20px 0;
+  width: 80%;
+}
+.section-4-btn {
+  width: 150px;
+  height: 40px;
+  background-color: var(--secondary-color);
+  border: 1px solid var(--light-teal);
+  outline: 0;
+  border-radius: 50px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  color: var(--primary-color);
+  gap: 10px;
+}
+.section-4-btn:active {
+  box-shadow: none;
 }
 /* END - appointments section styles (section-4) */
