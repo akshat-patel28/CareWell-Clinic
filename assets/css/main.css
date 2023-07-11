@@ -404,6 +404,17 @@
 .section-4-btn:active {
   box-shadow: none;
 }
+.chat-box {
+  width: 200px;
+  height: 240px;
+  background-color: var(--secondary-color);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 11;
+  border-radius: 8px;
+  top: 80px;
+  left: 30%;
+  transform: translateX(-20%);
+}
 @media (max-width: 992px) {
   .section-4-image-conatiner {
     display: none;
