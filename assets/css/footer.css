@@ -22,3 +22,18 @@
 .footer-nav-link:hover {
   text-decoration: underline;
 }
+.footer-text {
+  margin-top: 40px;
+  color: var(--secondary-color);
+  text-shadow: 1px 1px 60px #000;
+  cursor: default;
+  margin-bottom: 8px;
+}
+.footer-icon-container {
+  gap: 15px;
+}
+.footer-icon {
+  font-size: 20px;
+  color: var(--secondary-color);
+  text-shadow: 1px 1px 60px #000;
+}
