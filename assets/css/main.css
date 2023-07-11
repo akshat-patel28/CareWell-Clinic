@@ -332,10 +332,11 @@
 
 /* START- appointments section styles (section-4) */
 .appointments-section {
-  padding: 60px 0;
   height: 600px;
   justify-content: flex-start;
   align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .section-4-image-conatiner {
   width: 50%;
@@ -402,5 +403,28 @@
 }
 .section-4-btn:active {
   box-shadow: none;
+}
+@media (max-width: 992px) {
+  .section-4-image-conatiner {
+    display: none;
+  }
+  .section-4-info-container {
+    width: 100%;
+  }
+  .section-4-btn-container {
+    width: 60%;
+  }
+}
+@media (max-width: 576px) {
+  .section-4-sub-text,
+  .section-4-title {
+    text-align: center;
+  }
+  .line-break {
+    display: none;
+  }
+  .section-4-btn-container {
+    width: 100%;
+  }
 }
 /* END - appointments section styles (section-4) */
