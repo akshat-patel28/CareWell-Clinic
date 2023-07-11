@@ -43,3 +43,9 @@
   font-size: 14px;
   text-shadow: 1px 1px 60px #000;
 }
+@media (max-width: 768px) {
+  .footer-nav-link-container {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
