@@ -1,0 +1,24 @@
+.footer {
+  box-sizing: border-box;
+  background-color: var(--light-teal);
+  height: 200px;
+  padding-top: 60px;
+}
+.footer-nav-link-container {
+  list-style: none;
+  width: 80%;
+  margin: 0;
+  padding: 0;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.footer-nav-link,
+.footer-nav-link > a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: all ease-in-out 0.5s;
+  text-shadow: 1px 1px 60px #000;
+}
+.footer-nav-link:hover {
+  text-decoration: underline;
+}
